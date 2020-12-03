@@ -4,6 +4,7 @@ import 'package:implicit_animations_sample/screens/animated_container_screen.dar
 import 'package:implicit_animations_sample/screens/animated_default_text_style_screen.dart';
 import 'package:implicit_animations_sample/screens/animated_opacity_screen.dart';
 import 'package:implicit_animations_sample/screens/animated_padding_screen.dart';
+import 'package:implicit_animations_sample/screens/animated_physical_model_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -50,6 +51,11 @@ class AnimationSampleList extends StatelessWidget {
           itemName: 'AnimatedPadding',
           onPressItem: () {
             this._navigator(context, AnimatedPaddingScreen());
+          }),
+      AnimationSampleListItem(
+          itemName: 'AnimatedPhysicalModel',
+          onPressItem: () {
+            this._navigator(context, AnimatedPhysicalModelScreen());
           }),
     ];
   }
