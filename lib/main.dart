@@ -7,20 +7,29 @@ import 'package:implicit_animations_sample/screens/animated_padding_screen.dart'
 import 'package:implicit_animations_sample/screens/animated_physical_model_screen.dart';
 import 'package:implicit_animations_sample/screens/animated_positioned_directional.dart';
 import 'package:implicit_animations_sample/screens/animated_positioned_screen.dart';
+import 'package:implicit_animations_sample/screens/animated_theme_screen.dart';
 
 void main() {
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  static final ThemeData _lightTheme = ThemeData(
+      primaryColor: Colors.blue,
+      accentColor: Colors.blue,
+      textTheme: TextTheme(bodyText2: TextStyle(color: Colors.black)));
+
+  static final ThemeData _darkTheme = ThemeData(
+      primaryColor: Colors.blue,
+      accentColor: Colors.black,
+      textTheme: TextTheme(bodyText2: TextStyle(color: Colors.white)));
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: '',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
+      theme: _lightTheme,
+      darkTheme: _darkTheme,
       home: AnimationSampleList(),
     );
   }
@@ -68,6 +77,11 @@ class AnimationSampleList extends StatelessWidget {
           itemName: 'AnimatedPositionedDirectional',
           onPressItem: () {
             this._navigator(context, AnimatedPositionedDirectionalScreen());
+          }),
+      AnimationSampleListItem(
+          itemName: 'AnimatedTheme',
+          onPressItem: () {
+            this._navigator(context, AnimatedThemeScreen());
           }),
     ];
   }
