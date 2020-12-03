@@ -1,17 +1,56 @@
-# implicit_animations_sample
+# Flutter Implicit Animation Samples
 
-A sample App about Implicit Animations
+## Environment
+Flutter 1.22
 
-## Getting Started
+Dart 2.10
 
-This project is a starting point for a Flutter application.
+## Samples
 
-A few resources to get you started if this is your first Flutter project:
+### AnimatedAlign
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+![](https://raw.github.com/wiki/TsurumotoKentarou/Flutter-Implicit-Animations-Sample/images/animated_align.gif)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Flutter-Implicit-Animations-Sample
+### AnimatedContainer
+
+![](https://raw.github.com/wiki/TsurumotoKentarou/Flutter-Implicit-Animations-Sample/images/animated_container.gif)
+
+### AnimatedDefaultTextStyle
+
+![](https://raw.github.com/wiki/TsurumotoKentarou/Flutter-Implicit-Animations-Sample/images/animated_default_text_style.gif)
+
+### AnimatedOpacity
+
+![](https://raw.github.com/wiki/TsurumotoKentarou/Flutter-Implicit-Animations-Sample/images/animated_opacity.gif)
+
+### AnimatedPadding
+
+![](https://raw.github.com/wiki/TsurumotoKentarou/Flutter-Implicit-Animations-Sample/images/animated_padding.gif)
+
+### AnimatedPhysicalModel
+
+![](https://raw.github.com/wiki/TsurumotoKentarou/Flutter-Implicit-Animations-Sample/images/animated_physical_model.gif)
+
+### AnimatedPositioned
+
+![](https://raw.github.com/wiki/TsurumotoKentarou/Flutter-Implicit-Animations-Sample/images/animated_position.gif)
+
+### AnimatedPositionedDirectional
+
+![](https://raw.github.com/wiki/TsurumotoKentarou/Flutter-Implicit-Animations-Sample/images/animated_position_directional.gif)
+
+### AnimatedTheme
+
+![](https://raw.github.com/wiki/TsurumotoKentarou/Flutter-Implicit-Animations-Sample/images/animated_theme.gif)
+
+### AnimatedCrossFade
+
+![](https://raw.github.com/wiki/TsurumotoKentarou/Flutter-Implicit-Animations-Sample/images/animated_crossfade.gif)
+
+### AnimatedSize
+
+![](https://raw.github.com/wiki/TsurumotoKentarou/Flutter-Implicit-Animations-Sample/images/animated_size.gif)
+
+### AnimatedSwitcher
+
+![](https://raw.github.com/wiki/TsurumotoKentarou/Flutter-Implicit-Animations-Sample/images/animated_switcher.gif)
