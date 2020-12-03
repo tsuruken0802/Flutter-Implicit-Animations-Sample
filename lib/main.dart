@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:implicit_animations_sample/screens/animated_align_screen.dart';
 import 'package:implicit_animations_sample/screens/animated_container_screen.dart';
 import 'package:implicit_animations_sample/screens/animated_default_text_style_screen.dart';
+import 'package:implicit_animations_sample/screens/animated_opacity_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -38,6 +39,11 @@ class AnimationSampleList extends StatelessWidget {
           itemName: 'AnimatedDefaultTestStyle',
           onPressItem: () {
             this._navigator(context, AnimatedDefaultTestStyleScreen());
+          }),
+      AnimationSampleListItem(
+          itemName: 'AnimatedOpacity',
+          onPressItem: () {
+            this._navigator(context, AnimatedOpacityScreen());
           }),
     ];
   }
