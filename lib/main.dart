@@ -9,6 +9,7 @@ import 'package:implicit_animations_sample/screens/animated_physical_model_scree
 import 'package:implicit_animations_sample/screens/animated_positioned_directional.dart';
 import 'package:implicit_animations_sample/screens/animated_positioned_screen.dart';
 import 'package:implicit_animations_sample/screens/animated_size_screen.dart';
+import 'package:implicit_animations_sample/screens/animated_switcher_screen.dart';
 import 'package:implicit_animations_sample/screens/animated_theme_screen.dart';
 
 void main() {
@@ -94,6 +95,11 @@ class AnimationSampleList extends StatelessWidget {
           itemName: 'AnimatedSize',
           onPressItem: () {
             this._navigator(context, AnimatedSizeScreen());
+          }),
+      AnimationSampleListItem(
+          itemName: 'AnimatedSwitcher',
+          onPressItem: () {
+            this._navigator(context, AnimatedSwitcherScreen());
           }),
     ];
   }
