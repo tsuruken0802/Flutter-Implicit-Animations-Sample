@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:implicit_animations_sample/screens/animated_align_screen.dart';
 import 'package:implicit_animations_sample/screens/animated_container_screen.dart';
+import 'package:implicit_animations_sample/screens/animated_default_text_style_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -32,6 +33,11 @@ class AnimationSampleList extends StatelessWidget {
           itemName: 'AnimatedAlign',
           onPressItem: () {
             this._navigator(context, AnimatedAlignScreen());
+          }),
+      AnimationSampleListItem(
+          itemName: 'AnimatedDefaultTestStyle',
+          onPressItem: () {
+            this._navigator(context, AnimatedDefaultTestStyleScreen());
           }),
     ];
   }
