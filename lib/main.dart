@@ -5,6 +5,7 @@ import 'package:implicit_animations_sample/screens/animated_default_text_style_s
 import 'package:implicit_animations_sample/screens/animated_opacity_screen.dart';
 import 'package:implicit_animations_sample/screens/animated_padding_screen.dart';
 import 'package:implicit_animations_sample/screens/animated_physical_model_screen.dart';
+import 'package:implicit_animations_sample/screens/animated_positioned_directional.dart';
 import 'package:implicit_animations_sample/screens/animated_positioned_screen.dart';
 
 void main() {
@@ -62,6 +63,11 @@ class AnimationSampleList extends StatelessWidget {
           itemName: 'AnimatedPositioned',
           onPressItem: () {
             this._navigator(context, AnimatedPositionedScreen());
+          }),
+      AnimationSampleListItem(
+          itemName: 'AnimatedPositionedDirectional',
+          onPressItem: () {
+            this._navigator(context, AnimatedPositionedDirectionalScreen());
           }),
     ];
   }
