@@ -19,7 +19,7 @@ class _AnimatedPositionedScreenState extends State<AnimatedPositionedScreen> {
   double _right = _fromRight;
 
   // left
-  static final double _fromLeft = 150;
+  static final double _fromLeft = 0;
   static final double _toLeft = 60;
   double _left = _fromLeft;
 
